@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+
+    var num = prompt ('input number from 0 to 100:');
+    if (num <= 59){
+        num = 'fx';
+    }
+    else if (num > 59 && num <= 64){
+        num = 'e';
+    }
+    else if (num > 65 && num <= 74){
+        num = 'd';
+    }
+    else if (num > 74 && num <= 84){
+        num = 'c';
+    }
+    else if (num > 85 && num <= 94){
+        num = 'b';
+    }
+    else if (num > 94 && num <= 100){
+        num = 'a';
+    }
+    switch (num){
+        case 'fx':
+            alert ('FX');
+            break;
+        case 'e':
+            alert ('E');
+            break;
+        case 'd':
+            alert ('D');
+            break;
+        case 'c':
+            alert ('C');
+            break;
+        case 'b':
+            alert ('B');
+            break;
+        case 'a':
+            alert ('A');
+            break;
+        default:
+            alert ('i dont now this number :(');
+    }
+
+</script>
+</body>
+</html>
